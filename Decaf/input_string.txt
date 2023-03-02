@@ -1,0 +1,32 @@
+{
+	int a ; int b; int c;
+	for(a=b;a<c;a =a+1;) b= b-1;
+}
+{
+	int i;int j;float v;float x;float [100]a;int t ; int b; int c;
+
+	i = 0;
+	v = 1.12;
+	a = v;
+	v = a;
+	v = i<v;
+	for(t=b; t = i;t =t+1;) b= b-1;
+
+}
+{
+	int i;int j;float v;float x;float [100]a;
+
+	i = 0;
+	v = 1.12;
+	
+	while(true){
+		do i = i+1; while(a[i]<v);
+		do j = j+1; while(a[j]>v);
+		if(i >= j) break;
+		x = a[i]; a[i]= a[j]; a[j]=x;
+
+		for(i = j;i>= 17;i = i - 1;){
+			a[i] = 9;
+		}
+	}	
+}

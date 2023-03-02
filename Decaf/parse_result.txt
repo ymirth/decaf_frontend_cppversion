@@ -1,0 +1,9 @@
+	stmt : for begin 
+	 assignment 
+	stmt : for end  
+L1:	a = b
+L3:	if_false a < c goto L2
+L4:	b = b - 1
+L5:	a = a + 1
+	goto L3
+L2:
